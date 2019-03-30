@@ -1,0 +1,75 @@
+body, html{
+	height: 100%;
+	font-size: 1rem;
+}
+
+.background {
+	/* Do the background image*/
+	background-image: url("background.jpg");
+	height: 100%;
+
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	/* Make things centered*/
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+
+.mid{
+	
+  	padding: 10px 20px;
+  	border-radius: 5px;
+  	background-color: rgba(255, 219, 219, 0.6);
+  	text-align: center;
+}
+
+.titles_div{
+	text-align: center;
+
+}
+
+.text_div{
+	/*background-color: rgba(255, 219, 219, 0.6);*/
+	border-radius: 3px;
+	padding: 5px 10px;
+	font-size: 1.5vw;
+	text-align: left;
+}
+
+.hover_eff{
+	opacity: 1
+}
+
+.hover_eff:hover{
+	opacity: 0.5;
+}
+
+.font1{
+	font-family: 'Amatic SC', cursive;
+}
+
+.font2{
+	font-family: 'Indie Flower', cursive;
+}
+
+.h1{
+	font-size: 3vw; 
+}
+
+.h3{
+	font-size: 2vw;
+}
+
+hr{
+	 border:none;
+  border-top:3px dotted rgb(182, 113, 113);
+}
+
+p{
+	margin: 0;
+}
+
+
